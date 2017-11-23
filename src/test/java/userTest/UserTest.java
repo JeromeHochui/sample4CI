@@ -1,6 +1,7 @@
-import org.hamcrest.core.IsEqual;
-import org.junit.Assert;
+package userTest;
 import org.junit.Test;
+
+import user.User;
 
 public class UserTest {
 

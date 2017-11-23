@@ -1,6 +1,7 @@
+package user;
 public class User {
 
-    public Long id;
+    private Long id;
 
     private String lastName;
 
@@ -32,11 +33,21 @@ public class User {
         return id.equals(user.id);
     }
 
-    @Override
+    /* (non-Javadoc)
+	 * @see java.lang.Object#hashCode()
+	 */
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+
+	@Override
     public String toString() {
         if (id == null) {
-            return null;
+            return "";
         }
         return "id=" + id + ", lastName=" + lastName + ", firstName=" + firstName;
     }
+    
 }
