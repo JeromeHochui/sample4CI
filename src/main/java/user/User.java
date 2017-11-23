@@ -32,13 +32,8 @@ public class User {
 
         return id.equals(user.id);
     }
-
-    /* (non-Javadoc)
-	 * @see java.lang.Object#hashCode()
-	 */
 	@Override
 	public int hashCode() {
-		// TODO Auto-generated method stub
 		return super.hashCode();
 	}
 
